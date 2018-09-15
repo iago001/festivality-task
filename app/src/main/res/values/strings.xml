@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Networking Conference</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="sort">Sort by</string>
+    <string name="attendee_image">Attendee image</string>
+    <string name="attendee_looking_for">Attendee interests</string>
+    <string name="attendee_providing">Attendee skills</string>
+    <string name="attendee_type">Attendee type</string>
+    <string name="position_type">Position type</string>
+    <string name="industry_tags">Industry tags</string>
+    <string name="industry_comp_tags">Industry complimentary tags</string>
+    <string name="age">Age</string>
+    <string name="lives_in">Lives in</string>
+    <string name="country">Country</string>
+    <string name="position">Position</string>
+    <string name="company">Company</string>
+    <string name="phone">Phone number</string>
+    <string name="email">Email</string>
+    <string name="location_prompt">Enable Smart Location Awareness to work for you.</string>
+    <string name="location_prompt_1">Get guidance and utility from app via location directions, navigation and helpful on-site notifications</string>
+    <string name="enable_location">Enable Location</string>
+    <string name="skip">Skip</string>
+    <string name="get_started">Get started now!</string>
+    <string name="start_using">Start using the app</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_popup_label"
+    android:minHeight="?attr/listPreferredItemHeightSmall"
+    fontPath="fonts/Roboto-Bold.ttf"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:padding="5dp"
+    android:gravity="center_vertical"
+    tools:text="Header"
+    android:background="@color/light_gray"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:ignore="MissingPrefix" />

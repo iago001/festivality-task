@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="5dp"
+    android:minHeight="?attr/listPreferredItemHeight"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView android:id="@+id/attendee_profile_image"
+        android:contentDescription="@string/attendee_image"
+        android:scaleType="centerCrop"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_width="?attr/listPreferredItemHeight"
+        android:layout_height="?attr/listPreferredItemHeight" />
+
+    <TextView android:id="@+id/attendee_full_name"
+        android:layout_toEndOf="@+id/attendee_profile_image"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        fontPath="fonts/Roboto-Bold.ttf"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Adam Sandler"
+        tools:ignore="MissingPrefix" />
+
+    <TextView android:id="@+id/attendee_position"
+        android:layout_toEndOf="@+id/attendee_profile_image"
+        android:layout_below="@+id/attendee_full_name"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Designer" />
+
+    <TextView android:id="@+id/attendee_company"
+        android:layout_toEndOf="@+id/attendee_profile_image"
+        android:layout_below="@+id/attendee_position"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="\@Apple" />
+
+</RelativeLayout>
